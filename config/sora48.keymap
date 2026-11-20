@@ -1,5 +1,5 @@
 /*
- * SplitPad keymap (first draft, based on keyboard-layout_v7.json).
+ * Sora48 keymap (first draft, based on keyboard-layout_v7.json).
  * Can be changed later from ZMK Studio (https://zmk.studio/) without reflashing.
  *
  * Host: Windows. "English" key = Muhenkan (IME off), "Kana" key = Henkan (IME on)

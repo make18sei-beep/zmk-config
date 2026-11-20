@@ -1,4 +1,4 @@
-# zmk-config (SplitPad)
+# zmk-config (Sora48)
 
 ZMK firmware config for a hand-made wireless split keyboard.
 
@@ -11,8 +11,8 @@ Firmware is built by GitHub Actions on every push (Actions tab -> latest run -> 
 
 | File | Flash to |
 |---|---|
-| `splitpad_right-seeeduino_xiao_ble-zmk.uf2` | right half (with ZMK Studio) |
-| `splitpad_left-seeeduino_xiao_ble-zmk.uf2` | left half |
+| `sora48_right-seeeduino_xiao_ble-zmk.uf2` | right half (with ZMK Studio) |
+| `sora48_left-seeeduino_xiao_ble-zmk.uf2` | left half |
 | `settings_reset-seeeduino_xiao_ble-zmk.uf2` | either half, only to clear pairing |
 
-Flashing: connect USB, double-press the reset button, a drive `XIAO-SENSE` appears, copy the `.uf2` onto it.
+Flashing: connect USB, double-press the reset button, a USB drive appears, copy the `.uf2` onto it.

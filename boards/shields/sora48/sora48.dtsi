@@ -1,5 +1,5 @@
 /*
- * SplitPad: wireless split, 23 keys per hand (Choc v2), Azoteq TPS43 trackpad on each half.
+ * Sora48: wireless split, 23 keys per hand (Choc v2), Azoteq TPS43 trackpad on each half.
  * MCU: Seeed XIAO nRF52840 Plus (built with the seeeduino_xiao_ble board).
  * Both halves use the same schematic, so pins are identical. The right XIAO is
  * mounted rotated 270 deg, which does not change the electrical assignment.
@@ -124,7 +124,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4)                  RC(3,10) RC(3,9) RC(3,8
 
     /*
      * Trackpads
-     *   right (central):    mouse cursor, read directly (enabled in splitpad_right.overlay)
+     *   right (central):    mouse cursor, read directly (enabled in sora48_right.overlay)
      *   left  (peripheral): forwarded to the right half over BLE via left_tp_split,
      *                       one-finger movement is turned into scrolling
      */

@@ -1,11 +1,11 @@
 file_format: "1"
-id: splitpad
-name: SplitPad
+id: sora48
+name: Sora48
 type: shield
 url: https://github.com/make18sei-beep/zmk-config
 requires: [seeed_xiao]
 features:
   - keys
 siblings:
-  - splitpad_left
-  - splitpad_right
+  - sora48_left
+  - sora48_right

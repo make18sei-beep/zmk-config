@@ -1,4 +1,4 @@
-#include "splitpad.dtsi"
+#include "sora48.dtsi"
 
 /* Right = central. Same pins as the left; the matrix columns come after the left's 6. */
 &default_transform {
