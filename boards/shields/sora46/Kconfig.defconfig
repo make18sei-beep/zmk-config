@@ -1,15 +1,15 @@
 # Right half is the central (talks to the PC / tablet).
-if SHIELD_SORA48_RIGHT
+if SHIELD_SORA46_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "Sora48"
+    default "Sora46"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_SORA48_LEFT || SHIELD_SORA48_RIGHT
+if SHIELD_SORA46_LEFT || SHIELD_SORA46_RIGHT
 
 config ZMK_SPLIT
     default y

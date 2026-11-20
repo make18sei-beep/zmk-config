@@ -1,0 +1,5 @@
+config SHIELD_SORA46_LEFT
+    def_bool $(shields_list_contains,sora46_left)
+
+config SHIELD_SORA46_RIGHT
+    def_bool $(shields_list_contains,sora46_right)

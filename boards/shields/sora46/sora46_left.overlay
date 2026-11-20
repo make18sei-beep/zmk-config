@@ -1,4 +1,4 @@
-#include "sora48.dtsi"
+#include "sora46.dtsi"
 
 /* Left = peripheral. Its trackpad is forwarded to the right (central) half. */
 &left_tp_split {

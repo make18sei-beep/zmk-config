@@ -1,11 +1,11 @@
 file_format: "1"
-id: sora48
-name: Sora48
+id: sora46
+name: Sora46
 type: shield
 url: https://github.com/make18sei-beep/zmk-config
 requires: [seeed_xiao]
 features:
   - keys
 siblings:
-  - sora48_left
-  - sora48_right
+  - sora46_left
+  - sora46_right
