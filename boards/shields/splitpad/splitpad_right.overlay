@@ -1,0 +1,11 @@
+#include "splitpad.dtsi"
+
+/* Right = central. Same pins as the left; the matrix columns come after the left's 6. */
+&default_transform {
+    col-offset = <6>;
+};
+
+/* Right trackpad = mouse cursor. */
+&right_tp_listener {
+    status = "okay";
+};

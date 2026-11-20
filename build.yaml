@@ -1,0 +1,13 @@
+# GitHub Actions build matrix.
+# right = central (connects to the PC). ZMK Studio is enabled on the central only.
+# settings_reset is for clearing BLE pairing info when the halves stop finding each other.
+---
+include:
+  - board: seeeduino_xiao_ble
+    shield: splitpad_right
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: seeeduino_xiao_ble
+    shield: splitpad_left
+  - board: seeeduino_xiao_ble
+    shield: settings_reset

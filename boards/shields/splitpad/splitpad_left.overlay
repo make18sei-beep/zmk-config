@@ -1,0 +1,10 @@
+#include "splitpad.dtsi"
+
+/* Left = peripheral. Its trackpad is forwarded to the right (central) half. */
+&left_tp_split {
+    device = <&tps43>;
+};
+
+&left_tp_listener {
+    status = "disabled";
+};

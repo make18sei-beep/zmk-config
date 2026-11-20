@@ -1,0 +1,11 @@
+file_format: "1"
+id: splitpad
+name: SplitPad
+type: shield
+url: https://github.com/make18sei-beep/zmk-config
+requires: [seeed_xiao]
+features:
+  - keys
+siblings:
+  - splitpad_left
+  - splitpad_right

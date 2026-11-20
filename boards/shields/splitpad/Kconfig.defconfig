@@ -1,0 +1,17 @@
+# Right half is the central (talks to the PC / tablet).
+if SHIELD_SPLITPAD_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "SplitPad"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SPLITPAD_LEFT || SHIELD_SPLITPAD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
